@@ -4,13 +4,6 @@
 
 Скилл работает при написании, редактировании и ревью. Он сохраняет факты, условия, обязательность, технические литералы и голос автора. Английские фрагменты первая версия оставляет без изменений. Для работы скилла не нужны скрипты, MCP-сервер, ключи или внешние сервисы.
 
-## Скачать
-
-Версия 0.1.1:
-
-- [Полный плагин для Claude и ChatGPT/Codex](https://github.com/gyach/ai-text-humanizer/releases/download/v0.1.1/ai-text-humanizer-0.1.1.zip)
-- [Отдельный скилл для загрузки](https://github.com/gyach/ai-text-humanizer/releases/download/v0.1.1/ai-text-humanizer-0.1.1-skill.zip)
-
 ## Использование
 
 После подключения скилла сформулируйте задачу обычным языком, например:
@@ -26,9 +19,11 @@
 
 ### Claude Code
 
-Из корня распакованного плагина, для локального запуска без установки:
+Склонируйте репозиторий и запустите Claude Code из его корня:
 
 ```sh
+git clone https://github.com/gyach/ai-text-humanizer.git
+cd ai-text-humanizer
 claude --plugin-dir .
 ```
 
