@@ -1,0 +1,28 @@
+{
+  "version": "0.1.1",
+  "hashAlgorithm": "sha256; skill hash = sorted canonical skill path + NUL + bytes + NUL",
+  "baselineSkillHash": "b4df22b65160324a41a2c57739aa5a1430b3c6bacc596ea867d4e573d97ccf3e",
+  "candidateSkillHash": "3679cb231644fabfb02a0fbfe80fc0212224bb87ccf4e4413faa979abc217ec9",
+  "baselineCases": 9,
+  "candidateCases": 23,
+  "independentTextReview": {
+    "reviewer": "Astra",
+    "candidatePassed": 23,
+    "baselinePassed": 8
+  },
+  "modelParameters": "inherited; exact sampling settings not recorded",
+  "vendorInstallTested": false,
+  "completeToolTraceRecorded": false,
+  "reviewTargetBeforeAndAfterHash": "72f53d14b0c74eeb2043ce515bf6bf7a07cf0fa01bf23fc391c0df10bc5b8fcf",
+  "files": {
+    "evals/cases.json": "d78d7e34019d02949812251e599f0de05a1126d881ae1dad7ea436dfc028e6e8",
+    "evals/astra-fixes/cases.json": "2e032a77a2266b6554f26205b4faf05b11e2529695e20b865138977271d7a09d",
+    "evals/astra-fixes/baseline.json": "fc3b727108caf4f2ae9eaff2c9698d4ff47c338f58fc60d392ddfca0db6c0e59",
+    "evals/astra-fixes/candidate.json": "d4c92beb2d16a6fe9f8b89adfe845c8c5129dc6aaff3f75ebe47454989bf410b",
+    "evals/astra-fixes/review.md": "0fd3a4cb7cd227ebccc5a403621023a82dc827151f8abe26e7014d7d09043b2e"
+  },
+  "archives": {
+    "ai-text-humanizer-0.1.1-skill.zip": "4c8cdf0449e3c02f112fe3a34eb31cdadef5331efb9f571557712c931dcfa960",
+    "ai-text-humanizer-0.1.1.zip": "2ead788188b22ec2e524cc1180b279f29a2c922c35debf26cdb9ad89b207b234"
+  }
+}

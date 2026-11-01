@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanize Text"
+  short_description: "Естественный русский текст с учётом типа документа"
+  default_prompt: "Используй $humanize-text: определи тип документа и сделай текст естественным, сохранив смысл, факты и голос автора."

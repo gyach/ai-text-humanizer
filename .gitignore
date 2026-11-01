@@ -1,0 +1,12 @@
+dist/
+__pycache__/
+*.pyc
+
+# Local working notes and historical artifacts
+docs/design.md
+docs/astra-audit.md
+docs/superpowers/
+evals/*
+!evals/cases.json
+!evals/astra-fixes/
+evals/astra-fixes/prior-verification.md

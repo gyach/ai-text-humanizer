@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-text-humanizer",
+  "version": "0.1.1",
+  "description": "Адаптивный редактор русского текста: ясность и естественность с учётом типа документа и сохранением смысла.",
+  "keywords": [
+    "writing",
+    "editing",
+    "humanizer",
+    "russian",
+    "documents"
+  ]
+}
